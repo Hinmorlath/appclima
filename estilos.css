@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #cfcfcf;
+}
+
+form{
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    background: #afafaf;
+    padding: 1em 2em;
+    border-radius: 1em;
+    box-shadow: 0em 0.2em 0.6em #444;
+}
+form input {
+    padding: 0.6em 1em;
+    border-radius: 0.8em;
+    margin-bottom: 1.5em;
+    margin-top: 0.8em;
+    outline: none;
+    border: none;
+    background-color: #cfcfcf;
+}
